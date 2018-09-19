@@ -45,9 +45,9 @@ recipes.addShapedMirrored(stoneAxe, [[stone, stone, null],[stone, stick, null],[
 
 //stoneShovel
 recipes.remove(stoneShovel);
-recipes.addShaped(stonePickaxe, [[null, stone, null],[null, stick, null],[null, stick, null]]);
+recipes.addShaped(stoneShovel, [[null, stone, null],[null, stick, null],[null, stick, null]]);
 
 
 //stoneSword
 recipes.remove(stoneSword);
-recipes.addShaped(stonePickaxe, [[null, stone, null],[null, stone, null],[null, stick, null]]);
+recipes.addShaped(stoneSword, [[null, stone, null],[null, stone, null],[null, stick, null]]);
