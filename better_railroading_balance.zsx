@@ -1,0 +1,39 @@
+print("better_railroading_balance start");
+
+//balancing vals
+val railAmount = 4;		//16 rails out of 6 iron ingots? unrelaistic
+
+
+//-------------------------------
+//references
+//-------------------------------
+
+
+//materials | ingredients
+val iron = <ore:ingotIron>;
+val stick = <ore:stickWood>;
+val gold = <ore:ingotGold>;
+val redstoneBlock = <ore:blockRedstone>;
+
+
+
+//results
+val poweredRail = <minecraft:golden_rail>;
+val rail = <minecraft:rail>;
+
+
+
+
+//rail
+recipes.removeRecipe(rail);
+recipes.addShaped(rail * railAmount, [[iron, stick, iron], [iron, stick, iron], [iron, stick, iron]]);
+
+
+//powered rail
+
+recipes.removeRecipe(
+recipes.addShaped(poweredRail>, [[gold, redstoneBlock, gold],[gold, stick, gold], [gold, redstoneBlock, gold]]);
+
+
+
+print("better_railroading_balance end");
