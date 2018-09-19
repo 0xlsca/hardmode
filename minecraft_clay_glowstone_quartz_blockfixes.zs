@@ -14,8 +14,8 @@ val quartz = <ore:gemQuartz>;
 
 //results
 val clayBlock = <minecraft:clay>;
-val glowstoneBlock = <ore:glowstone>;
-val quartzBlock = <ore:blockQuartz>;
+val glowstoneBlock = <minecraft:glowstone>;
+val quartzBlock = <minecraft:quartz_block>;
 
 
 
@@ -31,5 +31,5 @@ recipes.addShaped(glowstoneBlock,[[glowstoneDust,glowstoneDust,glowstoneDust],[g
 
 //quartz
 recipes.remove(quartzBlock);
-recipes.addShaped(glowstoneBlock,[[quartz,quartz,quartz],[quartz,quartz,quartz],[quartz,quartz,quartz]]);
+recipes.addShaped(quartzBlock,[[quartz,quartz,quartz],[quartz,quartz,quartz],[quartz,quartz,quartz]]);
 
